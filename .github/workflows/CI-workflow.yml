@@ -23,6 +23,6 @@ jobs:
 
     - name: Test customer service
       working-directory: ./customer
-      run:
+      run: |
         npm ci
         npm run test
